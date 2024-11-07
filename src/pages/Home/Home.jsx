@@ -17,7 +17,7 @@ function Home() {
         },
       });
 
-      setFilmes(response.data.results.slice(0, 10)); 
+      setFilmes(response.data.results.slice()); 
       setLoading(false)
     }
 
